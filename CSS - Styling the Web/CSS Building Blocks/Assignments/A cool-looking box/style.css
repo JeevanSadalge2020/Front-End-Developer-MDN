@@ -1,0 +1,26 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+p {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2rem;
+  background-color: red;
+  color: rgb(181, 49, 49);
+  text-shadow: 1px 1px 1px #131212;
+  border-radius: 10px;
+  border: 1px solid rgb(236, 17, 9);
+  box-shadow: 10px 10px 5px rgb(24, 24, 24);
+  -moz-box-shadow: 10px 10px 5px rgb(146, 143, 143);
+  -webkit-box-shadow: 10px 10px 5px rgb(150, 147, 147);
+  -khtml-box-shadow: 10px 10px 5px rgb(150, 146, 146);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(14, 14, 14, 0),
+    rgba(5, 0, 0, 0.3)
+  );
+}

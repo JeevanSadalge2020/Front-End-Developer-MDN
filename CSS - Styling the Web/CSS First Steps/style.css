@@ -1,0 +1,39 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: crimson;
+  font-size: larger;
+}
+h1 {
+  color: black;
+}
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: yellowgreen;
+}
+a:hover {
+  color: brown;
+}
+.some {
+  background-color: aqua;
+}
+#a {
+  font-size: 2rem;
+}
+
+.some {
+  color: darkblue;
+}
+.jeevan p {
+  font-size: 5rem;
+  color: tomato;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jeevan p:first-child {
+  color: aqua;
+}

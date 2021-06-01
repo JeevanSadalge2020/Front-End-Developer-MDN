@@ -1,0 +1,45 @@
+/* General setup */
+@font-face {
+  font-family: "open_sansregular";
+  src: url("opensans/opensans-regular-webfont.woff2") format("woff2"),
+    url("opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aleoregular";
+  src: url("aleo-regular-webfont.woff2") format("woff2"),
+    url("aleo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "open_sansregular";
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  font-family: "aleoregular";
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "aleoregular";
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
